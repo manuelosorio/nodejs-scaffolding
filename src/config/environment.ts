@@ -4,9 +4,12 @@ import { development } from './enviornment/dev';
 import { production } from './enviornment/prod';
 import { init } from './enviornment/init';
 import helmet from 'helmet';
+import xContentTypeOptions from 'helmet/dist/middlewares/x-content-type-options';
 
 export const environment = express();
-environment.use(helmet);
+environment.use(helmet({
+  contentSecurityPolicy: false
+}));
 switch (Server.environment) {
   case 'Development':
   case 'development':
