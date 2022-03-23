@@ -3,8 +3,10 @@ import { Server } from './variables';
 import { development } from './enviornment/dev';
 import { production } from './enviornment/prod';
 import { init } from './enviornment/init';
+import helmet from 'helmet';
 
 export const environment = express();
+environment.use(helmet);
 switch (Server.environment) {
   case 'Development':
   case 'development':
