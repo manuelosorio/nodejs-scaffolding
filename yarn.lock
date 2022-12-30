@@ -3840,10 +3840,10 @@ slick@^1.12.2:
   resolved "https://registry.yarnpkg.com/slick/-/slick-1.12.2.tgz#bd048ddb74de7d1ca6915faa4a57570b3550c2d7"
   integrity sha1-vQSN23TefRymkV+qSldXCzVQwtc=
 
-snyk@^1.996.0:
-  version "1.1026.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1026.0.tgz#05ef9cf0301dfc6eccdc22b6d35b8c197f59fc16"
-  integrity sha512-sijn2PlTw8hJb41KxZxJO+/eFAAZPnr1VQ8AAjwH7QeGJsC3qVJCu3gtqr/11cM7JACWfs3pa7D++KDnFVd9oQ==
+snyk@^1.1064.0:
+  version "1.1064.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1064.0.tgz#e73b3a1aff585f6266f73ddd498c5cfd5e67aff0"
+  integrity sha512-f9mNO5rUc5nVVZ1sN+do2i5/RGHKlOQoNk5HiEO9WkPEn2pFllJv2XAw5Bn7sFj1eLXNFVUOUlo6SVqGnX7lXw==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
